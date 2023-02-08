@@ -7,12 +7,20 @@
   },
   "author": "giau",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wealthy1106/phatrienweb.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wealthy1106/phatrienweb/issues"
+  },
+  "homepage": "https://github.com/wealthy1106/phatrienweb#readme",
+  "description": ""
 }

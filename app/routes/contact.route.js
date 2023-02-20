@@ -15,5 +15,10 @@ router.route("/:id")
         .get(contacts.findOne)
         .put(contacts.update)
         .delete(contacts.delete);
+router.route("/email/:email")
+        .get(contacts.findEmail);
+
+router.route("/phone/:phone")
+        .get(contacts.findPhone);
 
 module.exports = router;
